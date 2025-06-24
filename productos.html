@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:wght@400;700&display=swap" rel="stylesheet">
     <!-- Pico.css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
     <title>Administracion de Productos</title>
@@ -41,7 +44,7 @@
     <!--CRUD-->
 
     <main class="container">
-        <h1>CRUD de Productos</h1>
+        <h1 style="color: #fff;">Productos</h1>
 
         <!-- Formulario -->
         <form id="productos-form" class="persona-form">
@@ -67,10 +70,10 @@
             <input type="hidden" id="persona-id" />
 
             <!-- Botón principal para agregar o actualizar un registro -->
-            <button type="submit" id="btn-submit">Agregar</button>
+            <button type="submit" id="btn-submit" style="background-color: #5c5c5c;">Agregar</button>
 
             <!-- Botón para cancelar la edición y resetear el formulario -->
-            <button type="button" id="btn-cancel" hidden>Cancelar</button>
+            <button type="button" id="btn-cancel" hidden style="background-color: #5c5c5c;">Cancelar</button>
 
         </form>
 
@@ -94,7 +97,7 @@
     </main>
 
     <footer class="footer">
-        <p>&copy; 2025 Instituto Técnico Ricaldone</p>
+        <p style="color: #fff;">&copy; 2025 Instituto Técnico Ricaldone</p>
     </footer>
 
 

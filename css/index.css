@@ -14,12 +14,17 @@ body{
 
 li{
     list-style: none;
+    font-size: 50px;
 }
 
 a{
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
+    font-size: 25px;
+}
+.logo{
+    font-size: 50px; 
 }
 
 a:hover{
@@ -34,7 +39,7 @@ header{
 
 .navbar{
     width: 100%;
-    height: 60px;
+    height: 100px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -149,10 +154,13 @@ header{
 
 /* Estilo de cada tarjeta */
 .card {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
   flex: 1 1 220px; /* crecimiento flexible */
   max-width: 300px; /* ancho máximo */
+  background-color: #2B2B2C;
   border: 1px solid #ddd; /* borde claro */
-  border-radius: 8px; /* esquinas redondeadas */
   padding: 1rem; /* espacio interno */
   text-align: center; /* centrar texto */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* sombra sutil */
@@ -172,17 +180,26 @@ header{
 }
 
 .card h2 {
+    color: #fff;
   font-size: 1.25rem; /* tamaño título */
   margin: 0.5rem 0 0.25rem; /* márgenes verticales */
 }
 
 .card p {
   margin: 0.25rem 0; /* márgenes verticales */
-  color: #555; /* texto atenuado */
+  color: #fff; /* texto atenuado */
   font-size: 0.95rem; /* tamaño cuerpo */
 }
 
 /*FOOTER*/
 .footer{
+    margin-top: 10px;
     background-color: #2B2B2C;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
 }

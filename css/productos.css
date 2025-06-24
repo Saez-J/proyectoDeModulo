@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Arsenal SC", sans-serif;
 }
 
 body{
@@ -150,6 +150,10 @@ header{
   gap: 1rem; /* separación entre elementos */
 }
 
+.flex label{
+    color: #fff;
+}
+
 /* Cada etiqueta ocupa mínimo 200px y crece según espacio */
 .persona-form .flex label {
   flex-grow: 1; /* el elemento puede crecer para ocupar espacio disponible */
@@ -168,4 +172,19 @@ table img {
 /* Espaciado en botones de acción */
 table button {
   margin-right: 0.25rem;
+}
+
+main{
+    font-family: "Arsenal SC", sans-serif;
+}
+
+main h1{
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.footer{
+    margin-top: 10px;
+    background-color: #2B2B2C;
+    color: white;
+    text-align: center;
 }
